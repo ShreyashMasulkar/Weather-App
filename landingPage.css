@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    background-color: #360369;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    gap: 70px;
+}
+
+.fetchButton{
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    color:darksalmon;
+    transition: all 0.3s ease-in-out;
+}
+
+.fetchButton:hover{
+  transform: scale(1.2);
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
